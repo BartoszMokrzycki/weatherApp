@@ -1,0 +1,42 @@
+@media(min-width: 996px) {
+    .upperPart {
+		&__left {
+			.inputIcon {
+				input.input-field {
+					width: 30em;
+				}
+			}
+
+            .errorMsg__text {
+                font-size: 1.4rem;
+            }
+		}
+		&__right {
+
+            .cityName {
+                font-size: 2.8rem;
+            }
+			.weatherInfo {
+				&__box {
+					width: 150px;
+
+                    .info {
+                        font-size: 1.8rem;
+                    }
+
+                    p {
+                        font-size: 1.6rem;
+                    }
+				}
+			}
+		}
+	}
+
+    .lowerPart {
+        .weatherItem {
+            &__day, .day {
+                font-size: 2rem;
+            }
+        }
+    }
+}

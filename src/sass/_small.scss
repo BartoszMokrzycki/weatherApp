@@ -1,0 +1,40 @@
+@media (min-width: 576px) {
+	.upperPart {
+		&__left {
+			.inputIcon {
+				
+				input.input-field {
+					width: 20em;
+				}
+			}
+
+            .errorMsg__text {
+                font-size: 1.2rem;
+            }
+		}
+
+		&__right {
+			.weatherInfo {
+				&__box {
+					width: 100px;
+
+					.info {
+						font-size: 1.8rem;
+					}
+
+					p {
+						font-size: 1.4rem;
+					}
+				}
+			}
+		}
+	}
+
+	.lowerPart {
+		.weatherItem {
+			&__day {
+				font-size: 1.6rem;
+			}
+		}
+	}
+}

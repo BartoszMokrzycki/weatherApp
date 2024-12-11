@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>weatherApp</title>
+		<link rel="stylesheet" href="../dist/css/main.min.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap"
+			rel="stylesheet" />
+		<script
+			src="https://kit.fontawesome.com/e6248a83de.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="appBody">
+			<div class="upperPart">
+				<div class="upperPart__left">
+					<div class="inputPanel">
+						<div class="inputIcon">
+							<input
+								id="cityInput"
+								class="input-field"
+								type="text"
+								placeholder="Enter city name..." />
+							<i class="searchIcon fa-solid fa-magnifying-glass"></i>
+						</div>
+						<div class="errorMsg">
+							<p class="errorMsg__text">Enter a proper city name...</p>
+						</div>
+					</div>
+				</div>
+				<div class="upperPart__right">
+					<p class="cityName">
+						<span class="currentDate"></span>
+					</p>
+					<img src="../src/img/mostly-sunnnIcon.png" class="weatherIcon" />
+					<div class="weatherInfo">
+						<div class="weatherInfo__box conditions">
+							<p class="info">cond</p>
+							<p class="conditionsInfo">mostly sunnny</p>
+						</div>
+						<div class="weatherInfo__box temperature">
+							<p class="info">temp</p>
+							<p class="temperatureInfo">23°C</p>
+						</div>
+						<div class="weatherInfo__box wind">
+							<p class="info">wind</p>
+							<p class="windInfo">27 km/h</p>
+						</div>
+						<div class="weatherInfo__box humidity">
+							<p class="info">hum</p>
+							<p class="humidityInfo">81%</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lowerPart">
+
+			</div>
+		</div>
+	</body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+	<script src="../dist/js/main.min.js"></script>
+</html>
